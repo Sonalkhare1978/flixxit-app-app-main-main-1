@@ -1,73 +1,81 @@
-# Getting Started with Create React App
+## **Flixxit**
+---
+Flixxit is a web application with the likeliness and basic features of OTT platforms such as Netflix, Prime video and AppleTV+.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application built using the MERN stack.
 
-## Available Scripts
+### **Demo**
+---
+Access my site using this [link](https://flixxit-app-main.vercel.app/)
 
-In the project directory, you can run:
+### **Features**
+---
+- ***Landing Page*** : Landing page contains information about Flixxit app benefits & FAQ section.
+  
 
-### `npm start`
+- ***Signup & Signin*** : Allows user to Signup & Signin using their email id and password. Validations implemented to check whether the user is alreay exists and to check wthether this user is valid authorized user or not.
+  
+- ***Account*** (User profile) : Account page contains user account information , Plan subscrion & payment details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ***Dashboard*** (Home page) : Allow users to browse titles using horizantally scrollable movies list. As of now implemented to show ``Trending & Top rated movies``.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ***Title View*** : Expand the movie title leads to show movie title, rating,genres and   other details of selected movie.
+  
+- ***Search*** : Allow users to search various type of movies by text.
 
-### `npm test`
+- ***My List*** : Allow users to add the movies to their list to watch later.
+  
+- ***Rating*** : Allow users to rate any movies in the form of upvote and downvote thumb.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ***Video Player*** : Allow users to preview/play the selected movie using Youtube embed.
+  
+- ***Plan subscription*** :Allow users to subscribe for plans to accessing all the feautures of the plan.
 
-### `npm run build`
+- ***Payment*** : Allow users to pay for subscribed plans with various types like cedit/debit card,paypal & Google/Apple pay.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ***About us*** : Information about some features, origin, copyrights, terms & contion and help desk detailsin the Footer section.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **User Guide**
+---
+Click [here](./UserGuide.pdf) to read User Guide with screen shots.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Tech Library Used**
+---
+- HTML
+- CSS
+- Javascript & ES6
+- React
+- Hooks
+- Redux
+- Material UI
+- Fort Awesome / Font Awesome
+- React - Slick carousel slider
+- Node 
+- Express
+- Json Web token (JWT)
+- MongoDB
+- Mongoose
+  
+### **Installation and Setup instruction**
+---
 
-### `npm run eject`
+-Clone or download repository and you need node and npm installed globally on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Run ``npm install`` command in your current project terminal to install node modules.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Run ``npm run start`` command to open the site in the development mode.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-Open http://localhost:3000 to view it in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Status**
+---
+Flixxit version 2 will be available soon with extended features.
 
-## Learn More
+### **Contributors**
+---
+[Latha Thavamani](https://github.com/LathaThavamani)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# flixxit-app-main" 
-"# flixxit-app-main-main" 
-"# flixxit-app-main-main" 
+### **Acknowledgments**
+---
+I will take all the responsiblity for every single line of code.  
+The design inspired from Netflix & Prime video."# flixxit-app-app-main-main-1" 
